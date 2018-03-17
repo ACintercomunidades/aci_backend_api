@@ -1,0 +1,41 @@
+{
+  "name": "aci_backend_api",
+  "version": "0.0.1",
+  "description": "ACi Backend API",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./bin/www",
+    "dev": "nodemon --exec yarn run babel-node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikos4Life/aci_backend_api.git"
+  },
+  "author": "Miguel Maroto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nikos4Life/aci_backend_api/issues"
+  },
+  "homepage": "https://github.com/Nikos4Life/aci_backend_api#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.0.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "mongoose": "^4.11.7",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "lodash": "^4.17.5",
+    "nodemon": "^1.11.0"
+  }
+}
